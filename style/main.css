@@ -2,10 +2,11 @@
     --vermelho:#E50914;
     --preta:#141414;
 }
+/*elementos base*/
 body{
     background:var(--preta);
     font-family: 'Times New Roman', Times, serif;
-
+    color:white;
 }   
 header .container{
     display:flex;
@@ -27,4 +28,11 @@ header nav a{
 }
 header nav a:hover{
     color: #fff;
+}
+/*filme principal*/
+.filme-principal{
+    font-style: var(--vermelho);
+    font-size: 16px;
+    background: url("./img/hoc-capa.jpg") ;
+    
 }
